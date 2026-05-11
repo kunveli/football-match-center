@@ -1,0 +1,73 @@
+{
+  "success": true,
+  "data": [
+    {
+      "matchId": "seed-1",
+      "league": "Premier League",
+      "time": "20:00",
+      "home": "Arsenal",
+      "away": "Chelsea",
+      "homeId": "ars",
+      "awayId": "che",
+      "status": "NS",
+      "elapsed": null
+    },
+    {
+      "matchId": "seed-2",
+      "league": "Serie A",
+      "time": "21:45",
+      "home": "Juventus",
+      "away": "Milan",
+      "homeId": "juv",
+      "awayId": "mil",
+      "status": "NS",
+      "elapsed": null
+    },
+    {
+      "matchId": "seed-3",
+      "league": "La Liga",
+      "time": "22:00",
+      "home": "Barcelona",
+      "away": "Sevilla",
+      "homeId": "bar",
+      "awayId": "sev",
+      "status": "NS",
+      "elapsed": null
+    },
+    {
+      "matchId": "seed-4",
+      "league": "Süper Lig",
+      "time": "19:00",
+      "home": "Galatasaray",
+      "away": "Fenerbahçe",
+      "homeId": "gal",
+      "awayId": "fen",
+      "status": "NS",
+      "elapsed": null
+    },
+    {
+      "matchId": "seed-5",
+      "league": "Bundesliga",
+      "time": "19:30",
+      "home": "Bayern",
+      "away": "Dortmund",
+      "homeId": "bay",
+      "awayId": "dor",
+      "status": "NS",
+      "elapsed": null
+    },
+    {
+      "matchId": "seed-6",
+      "league": "Ligue 1",
+      "time": "22:00",
+      "home": "PSG",
+      "away": "Marseille",
+      "homeId": "psg",
+      "awayId": "mar",
+      "status": "NS",
+      "elapsed": null
+    }
+  ],
+  "error": null,
+  "source": "SEED_CACHE"
+}

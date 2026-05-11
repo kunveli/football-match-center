@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment files (keep local only)
+.env
+.env.*
+!.env.example
+
+# Runtime/cache artifacts
+*.log
+app/data/bulletin_cache.json
+
+# Unity and build artifacts (for mono-repo setups)
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+
+# IDE/editor
+.vs/
+.vscode/
