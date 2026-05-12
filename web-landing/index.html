@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SadeceFutbol</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <nav>
+      <h1>SadeceFutbol</h1>
+
+      <div class="nav-links">
+        <a href="#features">Özellikler</a>
+        <a href="#live">Canlı</a>
+        <a href="#api">API</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <h2>Canlı Futbol Verileri Tek Yerde</h2>
+
+      <p>
+        Maç istatistikleri, oranlar, kadrolar,
+        canlı skorlar ve gelişmiş futbol API sistemi.
+      </p>
+
+      <div class="buttons">
+        <a class="btn primary" href="https://football-match-center.onrender.com/docs#/">
+          API Docs
+        </a>
+
+        <a class="btn secondary" href="#features">
+          Özellikleri Gör
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section id="features" class="features">
+    <h2>Özellikler</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Canlı Maçlar</h3>
+        <p>Anlık futbol karşılaşmaları ve skor takibi.</p>
+      </div>
+
+      <div class="card">
+        <h3>Detaylı İstatistik</h3>
+        <p>Şut, top kontrolü, kartlar ve maç analizi.</p>
+      </div>
+
+      <div class="card">
+        <h3>Bahis Oranları</h3>
+        <p>Gerçek zamanlı oran bilgileri ve market verileri.</p>
+      </div>
+
+      <div class="card">
+        <h3>API Sistemi</h3>
+        <p>FastAPI destekli profesyonel REST API.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="live" class="live-section">
+    <h2>Gerçek Zamanlı Futbol Merkezi</h2>
+
+    <p>
+      SadeceFutbol ile yüzlerce lig ve maçı canlı takip edin.
+    </p>
+  </section>
+
+  <section id="api" class="api-section">
+    <h2>API Endpointleri</h2>
+
+    <div class="endpoint">
+      GET /api/bulletin/today
+    </div>
+
+    <div class="endpoint">
+      GET /api/match/{match_id}
+    </div>
+
+    <div class="endpoint">
+      GET /api/match/{match_id}/stats
+    </div>
+
+    <div class="endpoint">
+      GET /api/h2h/{home_team}/{away_team}
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 SadeceFutbol • Tüm hakları saklıdır.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
